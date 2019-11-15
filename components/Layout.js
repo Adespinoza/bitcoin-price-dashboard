@@ -6,16 +6,16 @@ const Layout = props => (
     <Head>
       <title>Bitcoin Dashboard</title>
       <link
-        href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css"
         rel="stylesheet"
       />
       <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.23.6/antd.css"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
         rel="stylesheet"
       />
     </Head>
     <Navbar />
-    <div className="container mx-auto">{props.children}</div>
+    <div className="container is-fluid">{props.children}</div>
   </div>
 );
 

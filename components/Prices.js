@@ -8,12 +8,19 @@ class Prices extends React.Component {
       <div>
         <ul>
           <li>
-            Bitcoin rate for {this.props.bpi[this.state.currency].description}:
+            Bitcoin rate for {this.props.bpi[this.state.currency].description}
+            :
             <br />
-            <span className="inline-block bg-teal-500 text-white text-xs px-2 rounded-full">
-              {this.props.bpi[this.state.currency].code}
-            </span>
-            <strong> {this.props.bpi[this.state.currency].rate}</strong>
+            <div className="control">
+              <div className="tags has-addons">
+                <span className="tag is-primary">
+                  {this.props.bpi[this.state.currency].code}
+                </span>
+                <span className="tag">
+                  {this.props.bpi[this.state.currency].rate}
+                </span>
+              </div>
+            </div>
           </li>
         </ul>
         <br />
