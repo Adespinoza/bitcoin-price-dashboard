@@ -28,6 +28,8 @@ npm install
 npm run dev
 ```
 
+🎉The app will now be running over at [`localhost:3000`](http://localhost:3000).
+
 <!-- REFERENCES -->
 [Nextjs]: https://nextjs.org/
 [Bulma]: https://bulma.io/
