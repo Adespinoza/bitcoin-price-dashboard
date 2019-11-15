@@ -8,7 +8,7 @@
 💡Built using [Nextjs]. 🎨Design using [Bulma] framework.
 
 ### Description
-Small dashboard project to work with Nextjs and API calls to [Coindesk].
+Small dashboard project to work with Nextjs and API calls to [Coindesk]. This project is primarily to learn/understand how Nextjs works compared to CSR (client side rendering).
 
 ![Dashboard](https://im.ezgif.com/tmp/ezgif-1-9c5a747ea037.gif)
 
